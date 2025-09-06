@@ -18,3 +18,14 @@ print(ar_em)
 # Range
 ar_rn = np.arange(4)       # Create array with values from 0 to 3
 print(ar_rn)               # Print the range array
+
+# Diagonal
+ar_dia = np.eye(3)        # Create 3x3 identity matrix (diagonal ones, rest zeros)
+print(ar_dia)
+
+ar_dia1 = np.eye(3,5)     # Create 3x5 matrix with diagonal ones (rectangular identity form)
+print(ar_dia1)
+
+# Linspace
+ar_lin = np.linspace(0, 20, num=5)  # Create array with 5 evenly spaced values from 0 to 20
+print(ar_lin)
