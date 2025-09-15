@@ -32,3 +32,23 @@ print("\n")
 var2 = np.array([1, 2, 3, 4])
 varadd3 = var2 % 3
 print(varadd3)
+
+print("\n")
+
+var3 = np.array([1,2,3,4])
+varadd = np.reciprocal(var)
+print(varadd)
+
+print("\n")
+
+# 2D Array
+var21 = np.array([[1,2,3,4],[1,2,3,4]])
+var22 = np.array([[1,2,3,4],[1,2,3,4]])
+
+print(var21)
+print()
+print(var22)
+print()
+
+varadd2 = var21 + var22
+print(varadd2)
