@@ -15,12 +15,12 @@ print("Data Type : ", var.dtype)
 
 # Create array with int8 data type (small integer range: -128 to 127)
 x = np.array([1,2,3,4], dtype = np.int8)
-print("Data Type : ", x.dtype)  # Prints int8
+print("Data Type : ", x.dtype)
 print(x)
 
 # Create array with float data type (using shorthand "f")
 x1 = np.array([1,2,3,4], dtype = "f")
-print("Data Type : ", x1.dtype)  # Prints float32 (default float type)
+print("Data Type : ", x1.dtype)
 print(x1)
 
 # Same float array again
